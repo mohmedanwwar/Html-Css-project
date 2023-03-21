@@ -1,0 +1,242 @@
+html{
+    scroll-behavior: smooth;
+}
+main{
+    width: 100%;
+    /* background: red; */
+    overflow: hidden;
+}
+.head{
+    width: 80%;
+    height: 100%;
+    /* min-height: 180px;  */
+    margin: auto;
+    /* background: yellow; */
+}
+.logo{
+    width: 250px;
+    height: 100px;
+    float: left;
+    box-sizing: border-box;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+nav{
+    width: 1000px;
+    padding-block: 20px;
+    float: right;
+    
+    /* box-shadow: 0px 0px 10px #0008; */
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+nav ul li {
+    width: 150px ;
+    float: left;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    line-height: 60px;
+    height: 55px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+nav ul li a:hover{
+    color: rgb(216, 51, 29);
+    text-decoration: underline;
+    /* box-shadow: 2px 2px 2px red; */
+   
+}
+/* nav ul li :nth-last-of-type(2) a, nav ul li:nth-last-of-type()a{
+    background: red;
+    color: #fff;
+    
+} */
+.btn a{
+    background: rgb(255, 108, 88);
+    width: 80px;
+    height: 50px;
+    padding-bottom: 2px;
+    text-align: center;
+    border-radius:15px ;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+}
+.btn a:hover{
+    box-shadow: 0px 0px 4px red;
+    color:rgb(216, 51, 29);
+    background: transparent;
+}
+/* end navbar  */
+
+section:first-of-type {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.about{
+    background: url(../images/na1.jpg) no-repeat center /cover fixed ,#aaa6;
+    background-blend-mode: multiply;
+    padding-top:300px ;
+    margin: 50px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    color:#fff;
+    font-size: 15px;
+    /* background:; */
+    margin: auto;
+    margin-top:20px ;
+}
+.cont1{
+    background: #0006;
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    bottom: 0%;
+    left: 400px;
+    z-index: 1;
+    /* transform: translate(-50%, -50%) ; */
+
+}
+/* end first section about */
+.project{
+        width: 100%;
+        height: 700px;
+        overflow: hidden;
+        position: relative;
+        background: #f1e9e9 fixed;
+        margin-top:20px ;
+    }
+ 
+    .cont2{
+        width:60%;
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        background: #fff;
+        text-align: center;
+        border: 1px solid #0007;
+        box-shadow: 0px 0px 10px #0006;
+        
+    }
+    .cont3{
+        width: 100%;
+        position: absolute;
+        top: 5%;
+        left: 40px;
+     
+    }
+.cont3 img{
+    width: 700px;
+    height: 500px;
+    z-index: 99;
+}
+/* end project1  */
+.project2{
+    background: url(../images/na4.jpg) no-repeat center /cover fixed,#0008;
+    background-blend-mode: multiply;
+    padding-top:300px ;
+    margin: 50px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    color:#fff;
+    font-size: 15px;
+    /* background:; */
+    margin: auto;
+    margin-top:20px ;
+}
+.title h1{
+    text-align: left;
+    padding-inline:100px ;
+    font-size: 50px;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+.title div{
+    position: absolute;
+    text-align: left;
+     right: 30px;
+     top: 250px;
+     width: 50%;
+}
+.title div a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(255, 108, 88);;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 5px;
+    float: right;
+    
+    /*-webkit-border-radius:;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    */
+}
+.title div a:hover{
+    box-shadow: 0px 0px 10px;
+    background: transparent;
+    border: 1px solid #0006;
+    /* color: rgb(255, 108, 88);; */
+}
+/* end section project 2 */
+.figure{
+    height: 300px;
+    text-align: center;
+
+}
+figure  {
+    width: 20%;
+    float: left;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+
+}
+figure img {
+  
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+/* end contact  */
+.footer a{
+ text-decoration: none;
+ color: #000;
+ 
+
+}
+.footer a:hover{
+    text-decoration: none;
+    color: rgb(216, 51, 29);
+ 
+   
+   }
+.footer h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
